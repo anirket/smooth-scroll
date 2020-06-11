@@ -1,0 +1,36 @@
+.box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: lightblue;
+    background: url(assets/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box2 {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(assets/bg2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.button {
+    background: transparent;
+    font-size: xx-large;
+    box-sizing: border-box;
+    border-radius: 20px;
+    outline: none;
+    color: white;
+}
+
+.button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
